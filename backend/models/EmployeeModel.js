@@ -26,6 +26,11 @@ const EmployeeSchema = new Schema({
         type: Number,
         required: true
     },
+    role:{
+         type: String,
+        enum: ['admin', 'user'],
+        default: 'user'
+    },
     createdAt: {
         type: Date,
         default: new Date()
@@ -34,6 +39,7 @@ const EmployeeSchema = new Schema({
         type: Date,
         default: new Date()
     }
+
 });
 
 const EmployeeModel = mongoose.model('employees', EmployeeSchema);
