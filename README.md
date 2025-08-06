@@ -1,3 +1,11 @@
+_________________________________________________________________________
+
+
+      deployed link={"https://management-app-1-client.onrender.com"}
+
+
+__________________________________________________________________________
+
 A full-stack Task Management System that allows users to manage, track,
 assign, and upload documents related to their daily tasks. Built using the
 MERN stack (MongoDB, Express, React, Node.js), this app also supports JWT authentication and file uploads.
@@ -43,3 +51,7 @@ npm install
 Start the frontend app:
 npm start
 http://localhost:3000/.
+
+
+
+
